@@ -1,0 +1,43 @@
+@(form: Form[controllers.LoginModel.Data])
+@main("MicroAd BIDControl"){
+<body class="bid">
+    <div id="p001MainDiv">
+        <div class="loginTitle"><label>入札コントロール画面</label></div>
+        @form.errors.map { error: FormError =>
+        <div>
+            @error.key: @error.message
+        </div>
+        }
+        <div class="loginForm">
+            <form id="p001AuthenticationForm" name="p001AuthenticationForm" action="/login" method="post">
+                <table>
+                    <tr>
+                        <td class="loginFormTitle"><label>ユーザーID</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="p001UserMailAddress" name="userMailAddress" type="text" value="test3&#64;test.com"/>
+                        </td>
+                    </tr>
+                    <tr class="loginFormTr"></tr>
+                    <tr>
+                        <td class="loginFormTitle"><label>パスワード</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="p001UserPassword" name="userPassword" type="password" value="123456"/>
+                        </td>
+                    </tr>
+                    <tr class="loginFormTr"></tr>
+                    <tr>
+                        <td>
+                            <button id="p001LoginBtn" name="p001LoginBtn" type="submit" class="btn btn-primary">ログイン</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+}
+

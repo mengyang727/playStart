@@ -1,0 +1,88 @@
+#p001MainDiv {
+  width: 500px;
+  height: 260px;
+  position: absolute;
+  left: 50%;
+  margin-left: -215px;
+  top: 45%;
+  margin-top: -130px;
+  padding: 20px 50px 50px 50px;
+}
+
+#p001ErrorDiv {
+  font-size: 14px;
+  color: red;
+}
+
+.loginTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.loginForm {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.loginFormTitle {
+  font-size: 14px;
+  color: #8F8F8F;
+}
+
+.loginFormTr {
+  height: 15px;
+}
+
+#p001LoginBtn {
+  margin-top: 20px;
+  margin-left: 65px;
+  font-size: 16px;
+}
+
+.bid .dropdown-menu {
+  left: -62px;
+}
+
+.bid .dropdown-submenu {
+  position: relative;
+}
+
+.bid .dropdown-submenu>.dropdown-menu {
+  top: -1px;
+  left: -105px;
+  right: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+  min-width: 105px;
+}
+
+.bid .dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.bid .dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+#p001UserMailAddress,
+#p001UserPassword {
+  max-width: 255px;
+  width: 255px;
+}
+
+#p001LoginBtn {
+  width: 100px;
+}

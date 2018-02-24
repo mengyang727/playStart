@@ -1,0 +1,16 @@
+@(title: String)
+@import helper._
+
+
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head><title>@title</title></head>
+<body>
+<form action="/doLogin" method="post">
+    <input name="userName" type="text" placeholder="User Name" />
+    <input name="password" type="password" placeholder="Password" />
+    <button type="submit">立即登录</button>
+</form>
+</body>
+</html>

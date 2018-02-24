@@ -1,0 +1,9 @@
+.breadcrumbSeparator {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.breadcrumbUnderLine {
+  text-decoration: underline;
+  cursor: pointer;
+}

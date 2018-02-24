@@ -1,0 +1,249 @@
+#p021MainDiv {
+  min-width: 1300px;
+  margin: 20px;
+}
+
+#p021MainDiv .dateDescription {
+  margin-left: 20px !important;
+
+}
+
+#p021SspPubSiteHistoryList {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+#p021SspPubSiteHistoryList th {
+  text-align: center;
+}
+
+#p021SspPubSiteHistoryList td {
+  text-align: left;
+}
+
+#p021SspPubSiteHistoryList td.textAlignLeft {
+  text-align: left;
+}
+
+#p021AccountSelectContainer {
+  margin-left: 30px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+#p021EntryTypeSelectContainer {
+  margin-left: 74px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+
+#p021AccountSelect {
+  width: 300px;
+}
+
+#p021TargetUnitSelect {
+  width: 195px;
+}
+
+#p021EntryTypeSelect{
+  width: 300px;
+}
+
+#p021AccountSelectContainer .select2-selection {
+  height: 35px;
+}
+
+
+#p021EntryTypeSelectContainer .select2-selection {
+  height: 35px;
+}
+
+#p021TargetUnitSelectContainer {
+  width: 150px;
+  display: inline-block;
+}
+
+#p021TargetUnitSelectContainer .select2-selection {
+  height: 35px;
+}
+
+#p021AccountSelectContainer .select2-selection__rendered {
+  padding-top: 4px;
+}
+
+#p0210ptionSelectContainer .select2-selection__rendered {
+  padding-top: 4px;
+}
+
+#select2-p021EntryTypeSelect-results li.select2-results__option {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow : hidden;
+}
+
+#select2-p021AccountSelect-results li.select2-results__option {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow : hidden;
+}
+
+#p021MainDiv .searchContainer {
+  margin-left: 10px;
+}
+
+#p021MainDiv .toolsContainer {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#p021SspPubSiteHistoryList .fieldHistoryId {
+  width: 68px;
+  border-left: 1px solid black;
+  border-right: 1px solid #ddd;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldHistoryId {
+  width: 40px;
+  border-left: 1px solid black;
+  border-right: 1px solid #ddd;
+}
+
+#p021SspPubSiteHistoryList .fieldCreateTime {
+  width: 114px;
+  border-right: 1px solid #ddd;
+  padding-right: 0px;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldCreateTime {
+  width: 120px;
+  border-right: 1px solid #ddd;
+  padding-right: 0px;
+}
+
+#p021SspPubSiteHistoryList .fieldUserName {
+  border-right: 1px solid #ddd;
+  width: 78px;
+}
+
+#p021SspPubSiteHistoryList .fieldCoAccountIds {
+  border-right: 1px solid #ddd;
+  width: 78px;
+}
+
+#p021SspPubSiteHistoryList .fieldUrlGroupIds {
+  border-right: 1px solid #ddd;
+  width: 99px;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldUrlGroupIds {
+  border-right: 1px solid #ddd;
+  width: 94px;
+}
+
+#p021SspPubSiteHistoryList .fieldTargetingType {
+  border-right: 1px solid #ddd;
+  width: 128px;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldTargetingType {
+  border-right: 1px solid #ddd;
+  width: 138px;
+}
+
+#p021SspPubSiteHistoryList .fieldStructIds {
+  border-right: 1px solid #ddd;
+  width: 72px;
+}
+
+#p021SspPubSiteHistoryList .fieldPlatform {
+  width: 56px;
+  border-right: 1px solid #ddd;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldPlatform {
+  width: 46px;
+  border-right: 1px solid #ddd;
+}
+
+#p021SspPubSiteHistoryList .fieldTargetUnit {
+  width: 60px;
+  border-right: 1px solid #ddd;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldTargetUnit {
+  width: 53px;
+  border-right: 1px solid #ddd;
+}
+
+#p021SspPubSiteHistoryList .fieldEntryType {
+  width: 60px;
+  border-right: 1px solid #ddd;
+
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldEntryType {
+  width: 76px;
+  border-right: 1px solid #ddd;
+
+}
+
+
+#p021SspPubSiteHistoryList .fieldActionType {
+  width: 60px;
+  border-right: 1px solid #ddd;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldActionType {
+  width: 65px;
+  border-right: 1px solid #ddd;
+
+}
+
+#p021SspPubSiteHistoryList .fieldRegistMethod {
+  width: 60px;
+  border-right: 1px solid #ddd;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldRegistMethod {
+  width: 82px;
+  border-right: 1px solid #ddd;
+}
+
+#p021SspPubSiteHistoryList .fieldUploadFileName {
+  width: 82px;
+  border-right: 1px solid #ddd;
+}
+
+.bid-en #p021SspPubSiteHistoryList .fieldUploadFileName {
+  width: 65px;
+  border-right: 1px solid #ddd;
+}
+
+#p021SspPubSiteHistoryList .fieldConfirmFileName {
+  width:90px;
+  border-right: 1px solid black;
+}
+
+#p021SspPubSiteHistoryList thead th {
+  padding: 10px 8px;
+}
+
+#p021SspPubSiteHistoryList td.fieldPlatform {
+  width: 56px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+#p021SspPubSiteHistoryList td.fieldActionType {
+  width: 60px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+#p021SspPubSiteHistoryList td.fieldRegistMethod {
+  width: 60px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
