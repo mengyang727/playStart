@@ -52,11 +52,13 @@
 
 #p021AccountSelectContainer .select2-selection {
   height: 35px;
+  width: 300px;
 }
 
 
 #p021EntryTypeSelectContainer .select2-selection {
   height: 35px;
+  width: 300px;
 }
 
 #p021TargetUnitSelectContainer {
@@ -66,6 +68,7 @@
 
 #p021TargetUnitSelectContainer .select2-selection {
   height: 35px;
+  width: 195px;
 }
 
 #p021AccountSelectContainer .select2-selection__rendered {
