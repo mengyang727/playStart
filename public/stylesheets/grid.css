@@ -1,0 +1,100 @@
+.toolbar {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 50%;
+}
+
+.top {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 50%;
+}
+
+.dataTables_filter {
+  float: none !important;
+  text-align: left !important;
+}
+
+.toolsContainer {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.dataTable {
+  font-size: 14px !important;
+  font-family: "ＭＳ Ｐゴシック","MS PGothic",sans-serif !important;
+}
+
+.dataTable thead th {
+  border-top: 1px solid black;
+}
+
+.dataTables_scrollHead thead th {
+   border-top: 0px !important;
+   border-bottom: 0px !important;
+}
+
+.dataTables_scrollHead .dataTables_scrollHeadInner {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.searchIcon {
+  border: 1px solid transparent;
+  padding: 0px;
+  margin: 0px;
+  width: 36px;
+  height: 36px;
+  background: transparent url("../images/magnifier.png") no-repeat 0 center;
+  position: absolute;
+}
+
+.searchText {
+  box-flex: 1;
+  padding: 6px 8px 6px 34px;
+  background: rgba(255, 255, 255, 0.9) none repeat scroll 0% 0% padding-box;
+  border-width: 1px;
+  border-style: solid;
+  border-top-colors: none;
+  border-right-colors: none;
+  border-bottom-colors: none;
+  border-left-colors: none;
+  border-image: none;
+  border-spacing: 0px;
+  border-radius: 2px 0px 0px 2px;
+  border-color: rgba(23, 51, 78, 0.15) rgba(23, 51, 78, 0.17) rgba(23, 51, 78, 0.2);
+  box-shadow: 0px 1px 0px rgba(8, 22, 37, 0.02) inset, 0px 0px 2px rgba(8, 22, 37, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.2);
+  color: inherit;
+  margin-left: 0px !important;
+}
+
+#infoContainer {
+  font-size: 12px;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.dataTable .labelHiddenPointer {
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: inherit;
+}
+
+.dataTable td.dataTables_empty {
+  display: none;
+}
+
+.gridTooltip {
+  word-wrap : break-word ;
+  word-break:break-all;
+  box-shadow: 0 0 1px #aaa;
+  max-width: 600px;
+}
+
+body .ui-tooltip {
+  border-width: 1px;
+}
